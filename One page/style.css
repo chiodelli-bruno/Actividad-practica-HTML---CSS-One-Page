@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+}
+
+header .nav-link {
+    color: white;
+}
+
+header .nav-link:hover {
+    color: #ffc107;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 0; 
+    background: url('./img/fondo-hero.jpg') no-repeat center center/cover;
+}
+
+.hero-bg {
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+}
+
+.hero h2 {
+    font-size: 2.5em; 
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em; 
+}
+.logo-navbar {
+    height: 50px; 
+    width: auto; 
+}
+#sobre-mi {
+    margin: 50px 0;
+}
+
+#sobre-mi img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#sobre-mi h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#sobre-mi p {
+    font-size: 1.2em;
+}
+
+
+#proyectos {
+    margin: 50px auto; 
+    text-align: center; 
+}
+
+#proyectos .proyecto {
+    display: inline-block; 
+    margin: 0 15px; 
+}
+
+#proyectos h2 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.proyecto {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.proyecto img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.proyecto h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+#contacto {
+    margin: 50px 0;
+}
+
+#contacto h2 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+#contacto .form-label {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .list-inline-item a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .list-inline-item a:hover {
+    color: #ffc107;
+}
+

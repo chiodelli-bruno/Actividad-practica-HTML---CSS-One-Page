@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="./img/logo.png" alt="Logo" class="logo-navbar">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+            <h2>Bienvenido a mi portafolio</h2>
+            <p>Desarrollador Web | Frontend Developer</p>
+        </div>
+    </section>
+    
+    <section id="sobre-mi" class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="./img/yo.jpeg" alt="Foto personal" class="rounded-circle img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h2>Sobre mí</h2>
+                <p>Desarrollador Java junior con base en Python, actualmente enfocado en el desarrollo frontend. Tengo experiencia en HTML, CSS y JavaScript, y actualmente estoy ampliando mis conocimientos en programación web full stack y desarrollo de aplicaciones con React. Siempre buscando mejorar y aprender nuevas tecnologías para crear soluciones eficientes e innovadoras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="container my-5">
+        <h2 class="text-center">Proyectos</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="proyecto text-center">
+                    <img src="./img/cafeteria.jpg" alt="Proyecto 1" class="img-fluid">
+                    <h3>Cafetería</h3>
+                    <p>HTML y CSS</p>
+                    <a href="https://github.com/chiodelli-bruno/atico-cafeteria" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="proyecto text-center">
+                    <img src="./img/Budget-app.jpg" alt="Proyecto 2" class="img-fluid">
+                    <h3>Budget-app</h3>
+                    <p>JavaScript</p>
+                    <a href="https://github.com/chiodelli-bruno/Budget2" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="proyecto text-center">
+                    <img src="./img/Ecommerce-Website.jpg" alt="Proyecto 3" class="img-fluid">
+                    <h3>Ecommerce</h3>
+                    <p>HTML-CSS-JS</p>
+                    <a href="https://github.com/chiodelli-bruno/E-commerce" class="btn btn-primary" target="_blank">Ver en GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contacto" class="container my-5">
+        <h2>Contacto</h2>
+        <form>
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <p id="mensaje-exito"></p>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Encuéntrame en mis redes sociales:</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/bruno-chiodelli-87811a266/" class="text-white">LinkedIn</a></li>
+            <li class="list-inline-item"><a href="https://github.com/chiodelli-bruno" class="text-white">GitHub</a></li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
